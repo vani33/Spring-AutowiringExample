@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+ "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+<bean id="triangle" class ="com.hcl.Triangle" autowire="byName">
+</bean>
+
+
+<bean id ="A" class="com.hcl.Point" >
+<property name="x" value="10.0" ></property>
+<property name="y" value="20.0" ></property>
+</bean>
+
+
+
+<bean id ="B" class="com.hcl.Point" >
+<property name="x" value="30.0" ></property>
+<property name="y" value="40.0" ></property>
+</bean>
+
+
+
+<bean id="C" class="com.hcl.Point" >
+<property name="x" value="50.0" ></property>
+<property name="y" value="60.0" ></property>
+</bean>
+
+</beans>
